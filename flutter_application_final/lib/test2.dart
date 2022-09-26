@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_final/secon.dart';
-import 'package:flutter_application_final/start.dart';
+import 'package:flutter_application_1/secon.dart';
+import 'package:flutter_application_1/start.dart';
 
 void main() {
   runApp(const MaterialApp(
@@ -11,7 +11,7 @@ void main() {
 }
 
 class FirstRoute extends StatelessWidget {
-  const FirstRoute({super.key});
+  const FirstRoute({key});
 
   @override
   Widget build(BuildContext context) {

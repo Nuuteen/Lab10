@@ -3,7 +3,7 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 class Searchmenu extends StatelessWidget {
-  const Searchmenu({super.key});
+  const Searchmenu({key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +20,7 @@ class Searchmenu extends StatelessWidget {
 }
 
 class Menu extends StatefulWidget {
-  const Menu({Key? key}) : super(key: key);
+  const Menu({Key key}) : super(key: key);
 
   @override
   State<Menu> createState() => _MenuState();

@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 class Calculatorhmenu extends StatelessWidget {
-  const Calculatorhmenu({super.key});
+  const Calculatorhmenu({key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class Calculatorhmenu extends StatelessWidget {
 }
 
 class Calculator extends StatefulWidget {
-  const Calculator({Key? key}) : super(key: key);
+  const Calculator({Key key}) : super(key: key);
 
   @override
   State<Calculator> createState() => _CalculatorState();
@@ -83,9 +83,9 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numButton("7", (Colors.grey[850])!, Colors.white),
-                numButton("8", (Colors.grey[850])!, Colors.white),
-                numButton("9", (Colors.grey[850])!, Colors.white),
+                numButton("7", (Colors.grey[850]), Colors.white),
+                numButton("8", (Colors.grey[850]), Colors.white),
+                numButton("9", (Colors.grey[850]), Colors.white),
                 numButton("x", Colors.orange, Colors.white),
               ],
             ),
@@ -93,9 +93,9 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numButton("4", (Colors.grey[850])!, Colors.white),
-                numButton("5", (Colors.grey[850])!, Colors.white),
-                numButton("6", (Colors.grey[850])!, Colors.white),
+                numButton("4", (Colors.grey[850]), Colors.white),
+                numButton("5", (Colors.grey[850]), Colors.white),
+                numButton("6", (Colors.grey[850]), Colors.white),
                 numButton("-", Colors.orange, Colors.white),
               ],
             ),
@@ -103,9 +103,9 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numButton("1", (Colors.grey[850])!, Colors.white),
-                numButton("2", (Colors.grey[850])!, Colors.white),
-                numButton("3", (Colors.grey[850])!, Colors.white),
+                numButton("1", (Colors.grey[850]), Colors.white),
+                numButton("2", (Colors.grey[850]), Colors.white),
+                numButton("3", (Colors.grey[850]), Colors.white),
                 numButton("+", Colors.orange, Colors.white),
               ],
             ),
@@ -115,12 +115,12 @@ class _CalculatorState extends State<Calculator> {
               children: [
                 numButton(
                   "0",
-                  (Colors.grey[850])!,
+                  (Colors.grey[850]),
                   Colors.white,
                 ),
                 numButton(
                   ".",
-                  (Colors.grey[850])!,
+                  (Colors.grey[850]),
                   Colors.white,
                 ),
                 numButton("=", Colors.orange, Colors.white),

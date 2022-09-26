@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class SecondRoute extends StatelessWidget {
-  const SecondRoute({super.key});
+  const SecondRoute({key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class SecondRoute extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  const MyHomePage({Key key}) : super(key: key);
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
