@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245948090252",
+    "project_id": "loginteen-19ea1",
+    "storage_bucket": "loginteen-19ea1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245948090252:android:18fdd2ad31dee3c0e278a9",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245948090252-9t7ok0umbio9f079gkmiqutnkgtv4s7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwUCE3G_3fy8_zK9qSO08yFHKBOzGROJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245948090252-9t7ok0umbio9f079gkmiqutnkgtv4s7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
